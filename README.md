@@ -20,6 +20,19 @@ interpretación.
 | `05_Clasificacion_BreastCancer_LogReg.ipynb` | Clasificación (algoritmo alterno) | Regresión Logística | `breast-cancer.csv` |
 | `06_Regresion_Beisbol_Ridge.ipynb` | Regresión (algoritmo alterno) | Regresión Ridge | `beisbol.csv` |
 
+## Datos
+
+La carpeta [`datos/`](./datos) incluye los cuatro conjuntos de datos utilizados:
+
+- `beisbol.csv`
+- `breast-cancer.csv`
+- `samsung.csv`
+- `comprar_alquilar.csv`
+
+> Nota: los notebooks cargan los datos con una ruta relativa (`../../Conjunto de datos para 2a. evaluación/`).
+> Si vas a ejecutarlos directamente desde este repositorio, ajusta esa ruta a `datos/` o copia los archivos
+> a la ubicación esperada.
+
 ## Tecnologías
 
 - Python 3
